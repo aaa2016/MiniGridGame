@@ -1,8 +1,8 @@
 // GLOBAL SETTINGS
 
 // Board size
-var boardCols = 45;
-var boardRows = 15;
+var boardCols = 33;
+var boardRows = 12;
 
 // Player starting position in middle of board
 var startCol = Math.floor(boardCols / 2);
