@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+  <head>
+  
+    <title id="pageTitle">Mini Game</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Artur A.">
+
+	<script src="minigame.js"></script>
+
+	<style>
+	
+		body {font-family: sans-serif}
+		h1, p {text-align: center}
+        table, td, th {border: 1px solid black; padding: 5px; text-align: center}
+   		tr {height: 41px;}
+        table {border-collapse: collapse; margin: auto}
+        .game-board {width: 50%; margin: auto}
+        
+	</style>
+
+  </head>
+
+  <body onkeydown="doMove(event)">
+  
+  	<h1>Mini Game</h2>
+  	
+  	<p>Use arrow keys to move player to target</p>
+  	
+  	<p><input type=button class="newgame" value="New game" onClick="newGame()" /></p>
+  	
+  	<p id="message-area"></p>
+  	
+  	<div id="game-board"></div>  
+
+  </body>
+  
+</html>
